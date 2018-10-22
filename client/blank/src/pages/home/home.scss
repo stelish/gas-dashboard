@@ -1,0 +1,31 @@
+page-home {
+
+    .content {
+        background: #000 !important;
+        color: goldenrod;
+    }
+    
+
+    $grid-columns:               12 !default;
+
+    $grid-padding-width:         10px !default;
+
+    $grid-padding-widths: (
+        xs: $grid-padding-width,
+        sm: $grid-padding-width,
+        md: $grid-padding-width,
+        lg: $grid-padding-width,
+        xl: $grid-padding-width
+    ) !default;
+
+    ion-row {
+        height: calc(100vh / 33.3333);
+        min-height: 300px;
+    }
+
+    ion-col {
+        height: 100%;
+        margin:2px;
+    }
+
+}
